@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC14E4381819657500D958AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14E4371819657500D958AF /* Foundation.framework */; };
+		BC14E43A1819657500D958AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14E4391819657500D958AF /* CoreGraphics.framework */; };
+		BC14E43C1819657500D958AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14E43B1819657500D958AF /* UIKit.framework */; };
+		BC14E4421819657500D958AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC14E4401819657500D958AF /* InfoPlist.strings */; };
+		BC14E4441819657500D958AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4431819657500D958AF /* main.m */; };
+		BC14E4481819657500D958AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4471819657500D958AF /* AppDelegate.m */; };
+		BC14E44A1819657500D958AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC14E4491819657500D958AF /* Images.xcassets */; };
+		BC14E4681819659500D958AF /* SAPGatewayClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4671819659500D958AF /* SAPGatewayClient.m */; };
+		BC14E47D1819662600D958AF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E46B1819662600D958AF /* AFHTTPRequestOperation.m */; };
+		BC14E47E1819662600D958AF /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E46D1819662600D958AF /* AFHTTPRequestOperationManager.m */; };
+		BC14E47F1819662600D958AF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E46F1819662600D958AF /* AFHTTPSessionManager.m */; };
+		BC14E4801819662600D958AF /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4721819662600D958AF /* AFNetworkReachabilityManager.m */; };
+		BC14E4811819662600D958AF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4741819662600D958AF /* AFSecurityPolicy.m */; };
+		BC14E4821819662600D958AF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4761819662600D958AF /* AFURLConnectionOperation.m */; };
+		BC14E4831819662600D958AF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4781819662600D958AF /* AFURLRequestSerialization.m */; };
+		BC14E4841819662600D958AF /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E47A1819662600D958AF /* AFURLResponseSerialization.m */; };
+		BC14E4851819662600D958AF /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E47C1819662600D958AF /* AFURLSessionManager.m */; };
+		BC14E4871819668F00D958AF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC14E4861819668F00D958AF /* MainStoryboard_iPhone.storyboard */; };
+		BC14E48A1819672800D958AF /* FlightListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E4891819672800D958AF /* FlightListViewController.m */; };
+		BC14E48D1819676900D958AF /* FlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14E48C1819676900D958AF /* FlightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC14E4341819657500D958AF /* sflightdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sflightdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC14E4371819657500D958AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC14E4391819657500D958AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC14E43B1819657500D958AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC14E43F1819657500D958AF /* sflightdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sflightdemo-Info.plist"; sourceTree = "<group>"; };
+		BC14E4411819657500D958AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC14E4431819657500D958AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC14E4451819657500D958AF /* sflightdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sflightdemo-Prefix.pch"; sourceTree = "<group>"; };
+		BC14E4461819657500D958AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC14E4471819657500D958AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC14E4491819657500D958AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC14E4501819657500D958AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC14E4661819659500D958AF /* SAPGatewayClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPGatewayClient.h; sourceTree = "<group>"; };
+		BC14E4671819659500D958AF /* SAPGatewayClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPGatewayClient.m; sourceTree = "<group>"; };
+		BC14E46A1819662600D958AF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		BC14E46B1819662600D958AF /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		BC14E46C1819662600D958AF /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		BC14E46D1819662600D958AF /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		BC14E46E1819662600D958AF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BC14E46F1819662600D958AF /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		BC14E4701819662600D958AF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		BC14E4711819662600D958AF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BC14E4721819662600D958AF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		BC14E4731819662600D958AF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BC14E4741819662600D958AF /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BC14E4751819662600D958AF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		BC14E4761819662600D958AF /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		BC14E4771819662600D958AF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BC14E4781819662600D958AF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		BC14E4791819662600D958AF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BC14E47A1819662600D958AF /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		BC14E47B1819662600D958AF /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		BC14E47C1819662600D958AF /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		BC14E4861819668F00D958AF /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BC14E4881819672800D958AF /* FlightListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightListViewController.h; sourceTree = "<group>"; };
+		BC14E4891819672800D958AF /* FlightListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightListViewController.m; sourceTree = "<group>"; };
+		BC14E48B1819676900D958AF /* FlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightViewController.h; sourceTree = "<group>"; };
+		BC14E48C1819676900D958AF /* FlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC14E4311819657500D958AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14E43A1819657500D958AF /* CoreGraphics.framework in Frameworks */,
+				BC14E43C1819657500D958AF /* UIKit.framework in Frameworks */,
+				BC14E4381819657500D958AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC14E42B1819657500D958AF = {
+			isa = PBXGroup;
+			children = (
+				BC14E43D1819657500D958AF /* sflightdemo */,
+				BC14E4361819657500D958AF /* Frameworks */,
+				BC14E4351819657500D958AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC14E4351819657500D958AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC14E4341819657500D958AF /* sflightdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC14E4361819657500D958AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC14E4691819662600D958AF /* AFNetworking */,
+				BC14E4371819657500D958AF /* Foundation.framework */,
+				BC14E4391819657500D958AF /* CoreGraphics.framework */,
+				BC14E43B1819657500D958AF /* UIKit.framework */,
+				BC14E4501819657500D958AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC14E43D1819657500D958AF /* sflightdemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC14E4461819657500D958AF /* AppDelegate.h */,
+				BC14E4471819657500D958AF /* AppDelegate.m */,
+				BC14E4881819672800D958AF /* FlightListViewController.h */,
+				BC14E4891819672800D958AF /* FlightListViewController.m */,
+				BC14E48B1819676900D958AF /* FlightViewController.h */,
+				BC14E48C1819676900D958AF /* FlightViewController.m */,
+				BC14E4661819659500D958AF /* SAPGatewayClient.h */,
+				BC14E4671819659500D958AF /* SAPGatewayClient.m */,
+				BC14E4861819668F00D958AF /* MainStoryboard_iPhone.storyboard */,
+				BC14E4491819657500D958AF /* Images.xcassets */,
+				BC14E43E1819657500D958AF /* Supporting Files */,
+			);
+			path = sflightdemo;
+			sourceTree = "<group>";
+		};
+		BC14E43E1819657500D958AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC14E43F1819657500D958AF /* sflightdemo-Info.plist */,
+				BC14E4401819657500D958AF /* InfoPlist.strings */,
+				BC14E4431819657500D958AF /* main.m */,
+				BC14E4451819657500D958AF /* sflightdemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC14E4691819662600D958AF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BC14E46A1819662600D958AF /* AFHTTPRequestOperation.h */,
+				BC14E46B1819662600D958AF /* AFHTTPRequestOperation.m */,
+				BC14E46C1819662600D958AF /* AFHTTPRequestOperationManager.h */,
+				BC14E46D1819662600D958AF /* AFHTTPRequestOperationManager.m */,
+				BC14E46E1819662600D958AF /* AFHTTPSessionManager.h */,
+				BC14E46F1819662600D958AF /* AFHTTPSessionManager.m */,
+				BC14E4701819662600D958AF /* AFNetworking.h */,
+				BC14E4711819662600D958AF /* AFNetworkReachabilityManager.h */,
+				BC14E4721819662600D958AF /* AFNetworkReachabilityManager.m */,
+				BC14E4731819662600D958AF /* AFSecurityPolicy.h */,
+				BC14E4741819662600D958AF /* AFSecurityPolicy.m */,
+				BC14E4751819662600D958AF /* AFURLConnectionOperation.h */,
+				BC14E4761819662600D958AF /* AFURLConnectionOperation.m */,
+				BC14E4771819662600D958AF /* AFURLRequestSerialization.h */,
+				BC14E4781819662600D958AF /* AFURLRequestSerialization.m */,
+				BC14E4791819662600D958AF /* AFURLResponseSerialization.h */,
+				BC14E47A1819662600D958AF /* AFURLResponseSerialization.m */,
+				BC14E47B1819662600D958AF /* AFURLSessionManager.h */,
+				BC14E47C1819662600D958AF /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC14E4331819657500D958AF /* sflightdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC14E4601819657500D958AF /* Build configuration list for PBXNativeTarget "sflightdemo" */;
+			buildPhases = (
+				BC14E4301819657500D958AF /* Sources */,
+				BC14E4311819657500D958AF /* Frameworks */,
+				BC14E4321819657500D958AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sflightdemo;
+			productName = sflightdemo;
+			productReference = BC14E4341819657500D958AF /* sflightdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC14E42C1819657500D958AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = vanmil.org;
+			};
+			buildConfigurationList = BC14E42F1819657500D958AF /* Build configuration list for PBXProject "sflightdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC14E42B1819657500D958AF;
+			productRefGroup = BC14E4351819657500D958AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC14E4331819657500D958AF /* sflightdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC14E4321819657500D958AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14E4871819668F00D958AF /* MainStoryboard_iPhone.storyboard in Resources */,
+				BC14E4421819657500D958AF /* InfoPlist.strings in Resources */,
+				BC14E44A1819657500D958AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC14E4301819657500D958AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14E48D1819676900D958AF /* FlightViewController.m in Sources */,
+				BC14E47D1819662600D958AF /* AFHTTPRequestOperation.m in Sources */,
+				BC14E4481819657500D958AF /* AppDelegate.m in Sources */,
+				BC14E47E1819662600D958AF /* AFHTTPRequestOperationManager.m in Sources */,
+				BC14E4801819662600D958AF /* AFNetworkReachabilityManager.m in Sources */,
+				BC14E4841819662600D958AF /* AFURLResponseSerialization.m in Sources */,
+				BC14E48A1819672800D958AF /* FlightListViewController.m in Sources */,
+				BC14E4821819662600D958AF /* AFURLConnectionOperation.m in Sources */,
+				BC14E4811819662600D958AF /* AFSecurityPolicy.m in Sources */,
+				BC14E47F1819662600D958AF /* AFHTTPSessionManager.m in Sources */,
+				BC14E4831819662600D958AF /* AFURLRequestSerialization.m in Sources */,
+				BC14E4851819662600D958AF /* AFURLSessionManager.m in Sources */,
+				BC14E4441819657500D958AF /* main.m in Sources */,
+				BC14E4681819659500D958AF /* SAPGatewayClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC14E4401819657500D958AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC14E4411819657500D958AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC14E45E1819657500D958AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC14E45F1819657500D958AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC14E4611819657500D958AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sflightdemo/sflightdemo-Prefix.pch";
+				INFOPLIST_FILE = "sflightdemo/sflightdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC14E4621819657500D958AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sflightdemo/sflightdemo-Prefix.pch";
+				INFOPLIST_FILE = "sflightdemo/sflightdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC14E42F1819657500D958AF /* Build configuration list for PBXProject "sflightdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14E45E1819657500D958AF /* Debug */,
+				BC14E45F1819657500D958AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC14E4601819657500D958AF /* Build configuration list for PBXNativeTarget "sflightdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14E4611819657500D958AF /* Debug */,
+				BC14E4621819657500D958AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC14E42C1819657500D958AF /* Project object */;
+}
